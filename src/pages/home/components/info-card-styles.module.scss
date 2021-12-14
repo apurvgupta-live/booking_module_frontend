@@ -1,0 +1,46 @@
+.root {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+  margin: 20px auto;
+}
+.title_container {
+  background-color: #f4fbfb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #279f9f;
+  padding: 5px 0;
+}
+
+.card_container {
+  display: flex;
+  gap: 40px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 0px 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 300px;
+  //   align-items: center;
+  justify-content: center;
+  h4 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+  padding: 20px 0;
+}
+.demoCard {
+  width: 90%;
+  height: 40px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: rgb(204, 219, 232) 1px 1px 1px 0px inset,
+    rgba(255, 255, 255, 0.5) -1px -1px 3px 1px inset,
+    rgb(204, 219, 232) 1px 1px 1px 0px inset,
+    rgb(204, 219, 232) 3px 3px 6px 0px inset;
+}
